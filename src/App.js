@@ -40,7 +40,7 @@ function App() {
         {profile ? (
           <div>
              <img  src={profile.imageUrl} alt="user Image"/>
-             <h3>User Logged in</h3>
+             <h3>Users Logged in</h3>
              <p>Name : {profile.name}</p>
              <p>Email : {profile.email}</p>
              <br />
